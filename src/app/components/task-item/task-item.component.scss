@@ -1,0 +1,19 @@
+.task-item {
+  border-radius: 0.25rem;
+  background-color: ghostwhite;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &_details {
+    h2 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}
